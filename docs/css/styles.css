@@ -1,0 +1,24 @@
+#box1{
+    background-color: green;
+    float:left;
+}
+#box2{
+    background-color: red;
+    float: left;
+}
+#box3{
+    background-color: yellow;
+    clear:left;
+    float:left;
+}
+#box4{
+    background-color: blue;
+    float:left;
+}
+.box{
+    height: 36px;
+    width: 36px;
+    border: black 1px solid;
+
+
+}
