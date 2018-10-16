@@ -22,3 +22,34 @@
 
 
 }
+#wrapper{
+    width: 960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+}
+#menu {
+    background-color: antiquewhite;
+    height: 25px;
+    line-height: 25px;
+}
+#menu ul{
+    margin: 0;
+}
+#menu li{
+    display: inline;
+}
+#content{
+    width: 593px;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+#sidebar{
+    background-color: chocolate;
+    width: 366px;
+    float: left;
+}
+#footer{
+    background-color: bisque;
+}
