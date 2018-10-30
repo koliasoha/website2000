@@ -1,61 +1,64 @@
-body{
-    font-family: Helvetica, "Helvetica Neue", SansSerif, serif;
-}#box1{
-    background-color: green;
-    float:left;
-}
-#box2{
-    background-color: red;
-    float: left;
-}
-#box3{
-    background-color: yellow;
-    clear:left;
-    float:left;
-}
-#box4{
-    background-color: blue;
-    float:left;
-}
-.box{
-    height: 36px;
-    width: 36px;
-    border: black 1px solid;
-
-
-}
-#wrapper{
+#wrapper {
     width: 960px;
-    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+.marginCenter {
+    margin-right: auto;
     margin-left: auto;
-    margin-right:auto;
 }
-#menu {
-    background-color: antiquewhite;
-    height: 25px;
-    line-height: 25px;
-}
-#menu ul{
-    margin: 0;
-}
-#menu li{
+
+.displayInline {
     display: inline;
 }
-#content{
-    width: 544px;
-    background-color: blanchedalmond;
+.sqrPadding {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+
+.floatLeft {
     float: left;
+}
+
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+
+.clearMargin {
+
+    margin: 0;
+}
+.clearPadding {
+    padding: 0;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.grSmall {
+    width: 329px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.grBig {
+    width: 545px;
     padding-left: 24px;
     padding-right: 24px;
-    line-height: 27px;
-
+}
+.textRight {
+    text-align: right;
 }
 
-#sidebar{
-    background-color: chocolate;
-    width: 366px;
-    float: left;
+
+#panel1, #panel2, #panel3 {
+
+    width: 320px;
 }
-#footer{
-    background-color: bisque;
+
+.alignRight {
+    text-align: right;
 }
