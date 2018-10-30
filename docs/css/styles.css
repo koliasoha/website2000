@@ -1,4 +1,6 @@
-#box1{
+body{
+    font-family: Helvetica, "Helvetica Neue", SansSerif, serif;
+}#box1{
     background-color: green;
     float:left;
 }
@@ -40,9 +42,13 @@
     display: inline;
 }
 #content{
-    width: 593px;
+    width: 544px;
     background-color: blanchedalmond;
     float: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 27px;
+
 }
 
 #sidebar{
